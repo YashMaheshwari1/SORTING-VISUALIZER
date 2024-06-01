@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>SORTING VISUALIZER</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header id="header">
+        <h1 id="sortingvisualizer">
+            Sorting Visualizer
+        </h1>
+    </header>
+    <hr>
+    <canvas id="mycanvas"></canvas>
+    <script src="script.js" defer></script>
+    <script src="column.js" ></script>
+    <script src="math.js" defer></script>
+    <script src="bubblesort.js" defer></script>
+    <script src="selectionsort.js" defer></script>
+    <script src="insertionsort.js" defer></script>
+    <script src="mergesort.js" defer></script>
+    <script src="quicksort.js" defer></script>
+    <div id="button">
+        <button onclick="init()" id="init">init</button>
+        <button onclick="BubbleSort()" id="one">BubbleSort</button>
+        <button onclick="SelectionSort()" id="two">SelectionSort</button>
+        <button onclick="InsertionSort()" id="three">InsertionSort</button>
+        <button onclick="MergeSort()" id="four">MergeSort</button>
+        <button onclick="QuickSort()" id="five">QuickSort</button>
+    </div>
+</body>
+</html>
